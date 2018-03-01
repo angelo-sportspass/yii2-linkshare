@@ -2,6 +2,7 @@
     "name": "angelo-sportspass/yii2-linkshare",
     "description": "LinkShare API",
     "type": "yii2-extension",
+    "license": "BSD-3-Clause",
     "require": {
         "php": ">=5.6",
         "ext-curl": "^7.0",
