@@ -6,11 +6,20 @@
     "require": {
         "php": ">=5.6",
         "ext-curl": "^7.0",
-        "yiisoft/yii2": "~2.0"
+        "yiisoft/yii2": "~2.0",
+        "linkshare/oauth2-linkshare": "~1.0",
+        "nesbot/carbon": "~1.21"
     },
+    "require-dev": {
+	    "fabpot/php-cs-fixer": "~1.11",
+	    "mockery/mockery": "~0.9",
+	    "phpunit/phpunit": "~5.2",
+	    "psy/psysh": "~0.7",
+	    "squizlabs/php_codesniffer": "~2.5"
+	},
     "autoload": {
         "psr-4": {
-            "LinkShare\\": "src/"
+            "LinkShare": "src/"
         }
     }
 }
