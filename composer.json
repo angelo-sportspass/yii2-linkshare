@@ -1,0 +1,10 @@
+{
+    "name": "angelo-sportspass/yii2-linkshare",
+    "type": "yii2-extension",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "angelo\\linkshare\\": ""
+        }
+    }
+}
