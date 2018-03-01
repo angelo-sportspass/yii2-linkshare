@@ -4,7 +4,7 @@ namespace LinkShare;
 
 class LinkShareApi
 {
-    public static function()
+    public static function test()
     {
         echo 'test';
     }
