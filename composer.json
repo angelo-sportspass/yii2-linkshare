@@ -3,9 +3,10 @@
     "type": "yii2-extension",
     "homepage": "https://sportspass.com.au/",
     "minimum-stability": "dev",
+  	"prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "angelo-sportspass\\linkshare\\": ""
+            "angelo-sportspass\\": ""
         }
     }
 }
