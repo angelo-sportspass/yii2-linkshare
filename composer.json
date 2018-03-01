@@ -1,14 +1,15 @@
 {
     "name": "angelo-sportspass/yii2-linkshare",
+    "description": "LinkShare API",
     "type": "yii2-extension",
-    "homepage": "https://sportspass.com.au/",
     "require": {
-        "php": ">=5.3",
-        "ext-curl": "*"
+        "php": ">=5.6",
+        "ext-curl": "^7.0"
     },
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "angelo-sportspass\\LinkShare": ""
+            "angelo-sportspass\\LinkShare\\": ""
         }
     }
 }
