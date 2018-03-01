@@ -2,11 +2,13 @@
     "name": "angelo-sportspass/yii2-linkshare",
     "type": "yii2-extension",
     "homepage": "https://sportspass.com.au/",
-    "minimum-stability": "dev",
-  	"prefer-stable": true,
+    "require": {
+        "php": ">=5.3",
+        "ext-curl": "*"
+    },
     "autoload": {
         "psr-4": {
-            "angelo-sportspass\\": ""
+            "angelo-sportspass\\LinkShare": ""
         }
     }
 }
